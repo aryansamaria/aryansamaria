@@ -1,0 +1,171 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.3 (22/9/2018)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% v1.3 author:
+% Zachary Taylor
+%
+% v1.3 repository:
+% https://github.com/ZDTaylor/Deedy-Resume-Reversed
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-reversed}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Aryan Samaria}{
+\href{mailto:aryansamaria44@gmail.com}{aryansamaria44@gmail.com} | \href{tel:9358737183}{9358737183} \\
+Github: \href{https://github.com/aryansamaria}{aryansamaria} | LinkedIn: \href{https://www.linkedin.com/in/aryansamaria}{aryansamaria}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.60\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{DATAMONK}
+\descript{| PYTHON DEVELOPER }
+\location{December 2024 – Present | Jaipur, Rajasthan}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Architected a full-stack fintech assistant to answer queries on money transfers and Indian stock market (NSE) data using a modular \textbf{Flask} backend.
+\item Implemented a \textbf{Retrieval-Augmented Generation (RAG)} pipeline with \textbf{LlamaIndex} and \textbf{OpenAI} to provide accurate answers from a custom knowledge base.
+\item Engineered an end-to-end voice interaction module by integrating \textbf{OpenAI Whisper} for speech-to-text and \textbf{Google TTS} for synthesized audio responses.
+\item Developed web scraping scripts using \textbf{BeautifulSoup} to automatically build and update the vector knowledge base from online help articles.
+\item Built a dedicated module to fetch, cache, and serve real-time NSE stock data via a REST API, providing information on market movers and company details.
+\item Containerized the entire application using \textbf{Docker}, ensuring consistent and reproducible deployment.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Natural Language to SQL Query Assistant}
+\descript{| Streamlit Web Application}
+\begin{tightemize}
+\item Developed an intuitive web application using \textbf{Streamlit} that translates natural language questions into executable SQL queries, allowing non-technical users to query databases.
+\item Leveraged \textbf{OpenAI's} language models as the core engine to accurately parse user intent and generate complex, syntactically correct SQL code.
+\item Engineered an intelligent data visualization feature that uses \textbf{OpenAI} to analyze query results and automatically generate the most suitable and context-aware chart within the interface.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{CLICKHOUSE | PERFORMANCE, COMPRESSION EXPLORATION}
+\location{July 2025 | Jaipur}
+\begin{tightemize}
+\item Explored and evaluated ClickHouse, a high-performance columnar database, by designing test tables and running analytical queries to study its architecture and query efficiency.
+\item Applied compression codecs like \texttt{Delta}, \texttt{DoubleDelta}, and \texttt{Gorilla} on numeric and time-series data, reducing storage without impacting read performance.
+\item Compared disk usage before and after codec application, reducing a table’s size from 8.4 MB to just 44 KB, highlighting ClickHouse’s advanced compression capabilities.
+\item Benchmarked ClickHouse against traditional row-based databases by executing aggregation queries, demonstrating faster execution and significantly lower I/O overhead.
+\end{tightemize}
+\sectionsep
+
+
+\end{minipage}
+\hfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{ARYA COLLEGE OF ENGG AND I.T}
+\descript{Bachelor of Technology in Artificial Intelligence and Data Science}
+\location{May 2024 | Jaipur, Rajasthan}
+\location{Cum. GPA: 8.0}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming Languages}
+Python \textbullet{} SQL \textbullet{} Bash \\
+JavaScript (ES6+) \textbullet{} HTML \textbullet{} CSS
+\sectionsep
+
+\subsection{Databases \& Query Engines}
+PostgreSQL \textbullet{} SQLite \textbullet{} ClickHouse \\
+SQL-based Analytics \textbullet{} PostgreSQL Full-Text Search
+\sectionsep
+
+\subsection{Frameworks \& Libraries}
+Flask \textbullet{} Django \textbullet{} FastAPI \\
+Streamlit \textbullet{} LlamaIndex \textbullet{} OpenAI API \\
+scikit-learn \textbullet{} Pandas \textbullet{} NumPy \\
+BeautifulSoup \textbullet{} REST APIs \textbullet{} Docker \\
+Git/GitHub
+\sectionsep
+
+\subsection{Machine Learning \& NLP}
+Retrieval-Augmented Generation (RAG) \\
+Speech-to-Text (Whisper) \textbullet{} Text-to-Speech (Google TTS) \\
+Data Preprocessing \textbullet{} Model Deployment \\
+Data Visualization \textbullet{} Prompt Engineering
+\sectionsep
+
+\subsection{Concepts \& Tools}
+Unit Testing (Pytest) \textbullet{} Software Design \\
+SQL Optimization \textbullet{} ORM \textbullet{} Linux/UNIX \\
+Jupyter Notebook \textbullet{} VSCode
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TECH FEST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Tech Fest}
+ACEHACK Top 30 team Winner in Rocket Launch technical fes Shankara Global Hackathon. \\
+HTL Hackathon NCACSAI 2024 Research Paper on Object detection using ML.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CO-CURRICULAR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Co-curricular}
+Shradhanjali Don-De-Mode Winner. \\
+Basketball Runner-up RTU tournament. \\
+Fashion Show winner team. \\
+Captain Of College Basketball team.
+\sectionsep
+
+\end{minipage}
+\end{document}

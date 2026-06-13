@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aryan Samaria — Projects">
+  <title>Projects | Aryan Samaria</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="system-flow" id="system-flow" aria-label="Site navigation">
+    <div class="flow-track">
+      <a href="index.html"      class="flow-node" data-layer="home"       title="Home"></a>
+      <a href="experience.html" class="flow-node" data-layer="experience" title="Experience"></a>
+      <a href="projects.html"   class="flow-node" data-layer="projects"   title="Projects"></a>
+      <a href="skills.html"     class="flow-node" data-layer="skills"     title="Skills"></a>
+      <a href="education.html"  class="flow-node" data-layer="education"  title="Education"></a>
+      <a href="contact.html"    class="flow-node" data-layer="contact"    title="Contact"></a>
+    </div>
+  </nav>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-pill">
+      <a href="index.html" class="nav-logo" aria-label="Aryan Samaria — Home"><img src="assets/logo.png" alt="Aryan Samaria" class="nav-logo-img"></a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html"      class="nav-link">Home</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="projects.html"   class="nav-link">Projects</a></li>
+        <li><a href="skills.html"     class="nav-link">Skills</a></li>
+        <li><a href="education.html"  class="nav-link">Education</a></li>
+        <li><a href="contact.html"    class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-section" id="projects" data-layer="projects">
+
+    <!-- Architectural backdrop — Grid / Creative tension -->
+    <div class="page-backdrop" aria-hidden="true">
+      <svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <!-- Grid lines suggesting structure / code -->
+        <line x1="0"    y1="300" x2="1400" y2="300" stroke="currentColor" stroke-width="0.5" opacity="0.04"/>
+        <line x1="0"    y1="600" x2="1400" y2="600" stroke="currentColor" stroke-width="0.5" opacity="0.03"/>
+        <line x1="350"  y1="0"   x2="350"  y2="900" stroke="currentColor" stroke-width="0.5" opacity="0.04"/>
+        <line x1="700"  y1="0"   x2="700"  y2="900" stroke="currentColor" stroke-width="0.5" opacity="0.03"/>
+        <line x1="1050" y1="0"   x2="1050" y2="900" stroke="currentColor" stroke-width="0.5" opacity="0.03"/>
+        <!-- Diagonal thrust — creative energy -->
+        <line x1="0"    y1="50"  x2="560"  y2="900" stroke="currentColor" stroke-width="0.5" opacity="0.035"/>
+        <line x1="840"  y1="0"   x2="1400" y2="840" stroke="currentColor" stroke-width="0.5" opacity="0.03"/>
+        <!-- Grid intersection accent circle -->
+        <circle cx="350" cy="300" r="6" stroke="currentColor" stroke-width="0.75" fill="none" opacity="0.10"/>
+        <circle cx="350" cy="300" r="20" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.05"/>
+        <!-- Corner brackets -->
+        <path d="M 60 60 L 60 28 L 92 28"   stroke="currentColor" stroke-width="1" fill="none" opacity="0.22"/>
+        <path d="M 1340 840 L 1340 872 L 1308 872" stroke="currentColor" stroke-width="1" fill="none" opacity="0.15"/>
+      </svg>
+    </div>
+
+    <div class="section-container">
+
+      <header class="section-header" data-scroll>
+        <div class="section-eyebrow">
+          <span class="section-num">03</span>
+          <span class="eyebrow-line"></span>
+          <span class="section-tag">Intelligence Layer</span>
+        </div>
+        <h1 class="section-title">Projects</h1>
+        <div class="section-rule"></div>
+      </header>
+
+      <div class="projects-list">
+
+        <!-- 01 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">01</span>
+            <div class="project-info">
+              <h2 class="project-name">TechStore AI Support</h2>
+              <span class="project-kind">AI Customer Support · Claude Hooks · MCP · Skills</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            Production-grade AI customer support system for a fictional electronics retailer — Claude reads live
+            PostgreSQL order data, handles escalations, and runs automatic hooks for logging, security, and archiving.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Problem</span>
+                <p class="pd-text">Traditional AI support required months of boilerplate: intent detection, tool dispatch layers, security middleware, conversation archiving, and slash command parsers — each a separate engineering effort with brittle glue code.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Built around Claude Code's three pillars. Hooks — shell scripts firing on Claude events — handle query logging, dangerous command blocking, audit trails, and transcript archiving automatically. Skills (Markdown files in <code>.claude/commands/</code>) become slash commands like <code>/lookup-order</code> and <code>/escalate</code> with business logic in plain English. MCP server exposes six PostgreSQL tools via <code>@mcp.tool()</code> decorated Python functions over stdin/stdout JSON-RPC — no API layer, no dispatch code.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">System</span>
+                <p class="pd-text">Claude Code CLI + React Web App → FastAPI (SSE streaming agentic loop) → MCP Server (JSON-RPC child process) → PostgreSQL. Four hooks: UserPromptSubmit (query log), PreToolUse/Bash (security guard blocking <code>rm -rf</code> etc.), PostToolUse (audit trail), Stop (transcript archive). Six MCP tools: get_order, get_customer, get_orders_by_customer, search_kb (PostgreSQL FTS), create_escalation, save_ticket_summary.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Full system in a single session — 4 automatic hook behaviours, 4 custom slash commands, 6 live database tools, and a 6-page React dashboard with streaming chat showing real-time tool call cards. Every session logged, audited, and archived with zero extra infrastructure.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">PostgreSQL</span><span class="tag">React</span>
+              <span class="tag">Claude AI</span><span class="tag">MCP</span><span class="tag">FastAPI</span>
+              <span class="tag">Hooks</span><span class="tag">SSE Streaming</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">02</span>
+            <div class="project-info">
+              <h2 class="project-name">NSE Fintech Assistant</h2>
+              <span class="project-kind">Full-Stack Fintech Application</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            A full-stack fintech assistant answering queries on money transfers and Indian stock market (NSE) data,
+            with voice interaction and real-time market data.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Problem</span>
+                <p class="pd-text">Users needed to query financial information and stock market data using natural language, with support for voice interaction and real-time data access.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Modular Flask backend with RAG pipeline (LlamaIndex + OpenAI). Integrated OpenAI Whisper for speech-to-text and Google TTS for audio responses. BeautifulSoup web scraping for knowledge base maintenance. Dedicated NSE stock data API module with caching.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">System</span>
+                <p class="pd-text">Flask → RAG pipeline → Vector knowledge base → Voice interaction layer → Real-time NSE API → Docker containerization.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Full-stack fintech assistant enabling natural language queries on money transfers and stock market data with voice interaction and real-time updates.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">RAG</span>
+              <span class="tag">LlamaIndex</span><span class="tag">OpenAI</span><span class="tag">Whisper</span>
+              <span class="tag">Docker</span><span class="tag">NSE API</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">03</span>
+            <div class="project-info">
+              <h2 class="project-name">Natural Language → SQL Assistant</h2>
+              <span class="project-kind">Streamlit Web Application</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            An intuitive web application that translates natural language questions into executable SQL queries,
+            with automatic visualization of results.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Problem</span>
+                <p class="pd-text">Non-technical users needed a way to query databases without writing SQL, requiring an interface that understands natural language intent.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Streamlit interface leveraging OpenAI language models to parse user intent and generate syntactically correct SQL. Added intelligent visualization using OpenAI to analyze results and automatically generate context-aware charts.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Seamless natural language to SQL translation with automatic visualization, enabling non-technical users to query databases effortlessly.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">Streamlit</span>
+              <span class="tag">OpenAI</span><span class="tag">SQL</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">04</span>
+            <div class="project-info">
+              <h2 class="project-name">Multi-Tenant Analytics Platform</h2>
+              <span class="project-kind">Apache Superset-based Analytics System</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            Multi-tenant analytics system with user-to-company mapping and row-level security,
+            enabling dynamic filtering without dashboard duplication.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Problem</span>
+                <p class="pd-text">Multiple companies needed isolated analytics dashboards without duplicating content for each tenant, requiring secure data isolation at scale.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Implemented user-to-company mapping with Row-Level Security (RLS) in Apache Superset. Designed dynamic filters to avoid dashboard duplication across tenants while ensuring secure data isolation.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Scalable multi-tenant analytics platform with secure data isolation, eliminating dashboard duplication while maintaining performance.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">Apache Superset</span><span class="tag">PostgreSQL</span>
+              <span class="tag">Multi-tenant</span><span class="tag">Row-Level Security</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 05 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">05</span>
+            <div class="project-info">
+              <h2 class="project-name">Production DB Migration</h2>
+              <span class="project-kind">MariaDB → PostgreSQL Zero-Downtime Migration</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            Zero-downtime database migration from MariaDB to PostgreSQL,
+            including query rewrites and function replacements.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Problem</span>
+                <p class="pd-text">Production system required database migration from MariaDB to PostgreSQL without service interruption, maintaining data integrity and application compatibility.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Zero-downtime migration with query rewrites and function replacements. Maintained data integrity and application functionality throughout the migration process.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Successful production database migration with zero downtime, full data integrity, and maintained application compatibility.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">PostgreSQL</span><span class="tag">MariaDB</span>
+              <span class="tag">Database Migration</span><span class="tag">Zero-downtime</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 06 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">06</span>
+            <div class="project-info">
+              <h2 class="project-name">ClickHouse Performance Exploration</h2>
+              <span class="project-kind">Columnar DB Benchmarking</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            Comprehensive exploration of ClickHouse focusing on performance optimization
+            and advanced compression techniques — achieving 8.4 MB → 44 KB table reduction.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Designed test tables and ran analytical queries to study architecture and query efficiency. Applied compression codecs (Delta, DoubleDelta, Gorilla) on numeric and time-series data. Benchmarked against traditional row-based databases.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Achieved 8.4 MB → 44 KB table size reduction with compression codecs. Demonstrated significantly faster execution and lower I/O overhead compared to row-based databases.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">ClickHouse</span><span class="tag">Database</span>
+              <span class="tag">Performance</span><span class="tag">Compression</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 07 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">07</span>
+            <div class="project-info">
+              <h2 class="project-name">Weather Data ETL</h2>
+              <span class="project-kind">Airflow vs Dagster — Orchestration Comparison</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            Full ETL pipeline on real weather data, comparing DAG-based (Airflow) vs asset-based
+            (Dagster) orchestration approaches to understand trade-offs.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Implemented full ETL pipeline on real weather data using both Airflow (DAG-based) and Dagster (asset-based) orchestration. Compared maintainability, developer experience, and system design.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Preferred Dagster for maintainability and better developer experience. Gained deep understanding of orchestration trade-offs in production ETL systems.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">Airflow</span><span class="tag">Dagster</span>
+              <span class="tag">ETL</span><span class="tag">Python</span><span class="tag">Data Pipeline</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 08 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">08</span>
+            <div class="project-info">
+              <h2 class="project-name">Datamonk Learning Platform</h2>
+              <span class="project-kind">Ruby on Rails Application</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            Learning platform with module gating via project approvals, OAuth integration,
+            and real-time updates using Hotwire.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Built with Ruby on Rails and PostgreSQL. Implemented Hotwire (Turbo + Stimulus) for real-time updates. Module gating via project approvals system. Integrated GitHub and Google OAuth. GitHub API sync for project data. Comprehensive test coverage with RSpec.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Full-featured learning platform with progressive access control, seamless OAuth integration, and real-time updates providing smooth user experience.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">Ruby on Rails</span><span class="tag">PostgreSQL</span>
+              <span class="tag">Hotwire</span><span class="tag">OAuth</span><span class="tag">RSpec</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 09 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">09</span>
+            <div class="project-info">
+              <h2 class="project-name">LinkNest</h2>
+              <span class="project-kind">Rails-based People Directory</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            People directory with complex organizational relationships, bulk data imports,
+            and full-text search capabilities.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Ruby on Rails with many-to-many organization relationships. CSV/Excel bulk uploads for data import. PostgreSQL full-text search for efficient querying.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Scalable people directory with complex relationship modeling, efficient bulk import capabilities, and fast full-text search.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">Ruby on Rails</span><span class="tag">PostgreSQL</span>
+              <span class="tag">Full-text Search</span><span class="tag">CSV Import</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 10 -->
+        <article class="project-item" data-scroll>
+          <div class="project-header-row">
+            <span class="project-idx">10</span>
+            <div class="project-info">
+              <h2 class="project-name">JumpNewz</h2>
+              <span class="project-kind">Hacker News–style Rails App</span>
+            </div>
+            <button class="project-expand-btn" aria-label="Expand project details">+</button>
+          </div>
+          <p class="project-desc">
+            Link aggregator with automatic metadata extraction and real-time updates using Hotwire,
+            inspired by Hacker News.
+          </p>
+          <div class="project-expandable">
+            <div class="project-detail-grid">
+              <div class="pd-item">
+                <span class="pd-label">Approach</span>
+                <p class="pd-text">Ruby on Rails with metadata extraction using Nokogiri, HTTParty, and MetaInspector. Real-time updates via Hotwire. Hacker News–inspired interface and functionality.</p>
+              </div>
+              <div class="pd-item">
+                <span class="pd-label">Outcome</span>
+                <p class="pd-text">Functional link aggregator with automatic metadata extraction and real-time updates providing a smooth, modern user experience.</p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="tag">Ruby on Rails</span><span class="tag">Hotwire</span>
+              <span class="tag">Nokogiri</span><span class="tag">Web Scraping</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-text">&copy; <span id="current-year"></span> Aryan Samaria</span>
+      <span class="footer-tag">03 / INTELLIGENCE LAYER</span>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

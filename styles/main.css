@@ -1420,6 +1420,10 @@ img { display: block; max-width: 100%; }
     display: none;
   }
 
+  .nav-right {
+    margin-left: auto;
+  }
+
   .nav-toggle {
     display: flex;
   }
